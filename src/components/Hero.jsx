@@ -37,21 +37,21 @@ export default function Hero() {
         <motion.div initial="hidden" animate="show" variants={container} className="text-center">
           <motion.div variants={item} className="mb-6 inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-4 py-2 text-xs text-white/80 backdrop-blur">
             <Sparkles size={16} className="text-white/90" />
-            <span>Retail Credit Scoring, Reimagined</span>
+            <span>Built for retail stores</span>
           </motion.div>
 
           <motion.h1
             variants={item}
             className="mx-auto max-w-3xl text-balance font-medium tracking-tight text-white md:text-7xl text-5xl"
           >
-            Approve good customers in milliseconds.
+            Instant, fair approvals at POS and online.
           </motion.h1>
 
           <motion.p
             variants={item}
             className="mx-auto mt-5 max-w-2xl text-pretty text-base md:text-lg text-white/80"
           >
-            A modern, privacy-first risk platform that translates behavioral signals into precise credit decisions. Plug into your checkout and start reducing fraud while lifting approvals.
+            A retail-native credit and risk layer for in-store terminals and e‑commerce. Approve more good shoppers, stop returns abuse and fraud, and keep lines moving.
           </motion.p>
 
           <motion.div variants={item} className="mt-8 flex flex-wrap items-center justify-center gap-3">
@@ -60,13 +60,13 @@ export default function Hero() {
               className="group inline-flex items-center gap-2 rounded-full bg-white px-5 py-3 text-sm font-medium text-black shadow/50 shadow-white/10 transition hover:shadow-white/20"
             >
               <Rocket size={16} className="transition group-hover:translate-x-0.5" />
-              Get Started
+              Start pilot
             </a>
             <a
               href="#how-it-works"
               className="inline-flex items-center gap-2 rounded-full bg-white/10 px-5 py-3 text-sm font-medium text-white backdrop-blur transition hover:bg-white/20"
             >
-              Learn How
+              See how it fits your store
             </a>
           </motion.div>
 
@@ -74,15 +74,15 @@ export default function Hero() {
           <motion.div variants={item} className="mt-10 flex flex-wrap items-center justify-center gap-6 text-white/60">
             <div className="flex items-center gap-2">
               <Shield size={16} />
-              <span>Bank-grade security</span>
+              <span>POS-ready SDKs</span>
             </div>
             <div className="flex items-center gap-2">
               <span className="h-2 w-2 rounded-full bg-emerald-400" />
-              <span>99.99% uptime</span>
+              <span>Under 150ms decisions</span>
             </div>
             <div className="flex items-center gap-2">
               <span className="h-2 w-2 rounded-full bg-sky-400" />
-              <span>SDKs for Web & Mobile</span>
+              <span>Omnichannel support</span>
             </div>
           </motion.div>
         </motion.div>

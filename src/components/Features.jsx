@@ -5,27 +5,27 @@ import { LineChart, Gauge, Fingerprint, ShieldCheck } from 'lucide-react';
 const features = [
   {
     icon: LineChart,
-    title: 'Real-time risk signals',
-    desc: 'Ingest behavioral, device and transaction data to compute risk scores instantly at checkout.',
-    hue: 'from-sky-400/20 to-cyan-300/10',
+    title: 'Real-time risk at checkout',
+    desc: 'Score every basket in under 150ms to keep queues moving. Works with terminals and web POS.',
+    hue: 'from-amber-400/20 to-orange-300/10',
   },
   {
     icon: Gauge,
-    title: 'Granular scorecards',
-    desc: 'Custom scorecards trained for retail flows help you approve more good customers with confidence.',
-    hue: 'from-violet-400/20 to-fuchsia-300/10',
+    title: 'Store-level scorecards',
+    desc: 'Tune approvals by location, seasonality, and SKU to maximize conversion and minimize loss.',
+    hue: 'from-sky-400/20 to-cyan-300/10',
   },
   {
     icon: Fingerprint,
-    title: 'Privacy-first by design',
-    desc: 'No PII required to start. Differential privacy and on-edge inference keep data secure.',
+    title: 'Frictionless identity',
+    desc: 'Behavioral + device signals reduce false declines without asking shoppers for extra steps.',
     hue: 'from-emerald-400/20 to-teal-300/10',
   },
   {
     icon: ShieldCheck,
-    title: 'Bank-grade compliance',
-    desc: 'SOC2-ready controls, audit trails, and explainability for every decision.',
-    hue: 'from-amber-400/20 to-orange-300/10',
+    title: 'Returns & abuse controls',
+    desc: 'Stop refund fraud and wardrobing with policy-aware risk rules and explainable decisions.',
+    hue: 'from-violet-400/20 to-fuchsia-300/10',
   },
 ];
 
@@ -34,8 +34,8 @@ export default function Features() {
     <section id="how-it-works" className="relative w-full bg-black py-24 text-white">
       <div className="mx-auto max-w-7xl px-6">
         <div className="mx-auto mb-14 max-w-3xl text-center">
-          <h2 className="text-3xl md:text-5xl font-semibold tracking-tight">Built for retail velocity</h2>
-          <p className="mt-4 text-white/70">Derived from the best FMCG and fintech playbooks — performance, simplicity, and gorgeous UX by default.</p>
+          <h2 className="text-3xl md:text-5xl font-semibold tracking-tight">Engineered for retail stores</h2>
+          <p className="mt-4 text-white/70">Point-of-sale speed, omnichannel coverage, and simple integration for your existing stack.</p>
         </div>
 
         <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4">

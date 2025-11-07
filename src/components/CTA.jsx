@@ -15,22 +15,22 @@ export default function CTA() {
         >
           <div className="pointer-events-none absolute inset-0 bg-[conic-gradient(from_180deg_at_50%_50%,rgba(255,255,255,0.08),transparent_40%,rgba(255,255,255,0.08))]" />
           <div className="relative">
-            <h3 className="text-2xl md:text-4xl font-semibold tracking-tight">Launch smarter credit decisions this week</h3>
+            <h3 className="text-2xl md:text-4xl font-semibold tracking-tight">Pilot across 5–50 stores in days</h3>
             <p className="mx-auto mt-3 max-w-2xl text-white/70">
-              Drop-in SDKs, clear docs, and a sandbox to test instantly. No sales hoops. Ship in days, not months.
+              Plug into your web and in‑store POS with a single SDK. No hardware swap. Test uplift, measure loss, and rollout confidently.
             </p>
             <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
               <a
                 href="#"
                 className="rounded-full bg-white px-5 py-3 text-sm font-medium text-black shadow/50 shadow-white/10 transition hover:shadow-white/20"
               >
-                Create free sandbox
+                Book a store pilot
               </a>
               <a
                 href="#"
                 className="rounded-full bg-white/10 px-5 py-3 text-sm font-medium text-white backdrop-blur transition hover:bg-white/20"
               >
-                Read the docs
+                Implementation guide
               </a>
             </div>
           </div>

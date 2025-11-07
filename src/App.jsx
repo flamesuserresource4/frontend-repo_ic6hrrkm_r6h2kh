@@ -18,7 +18,7 @@ function App() {
             <a href="#how-it-works" className="hover:text-white">How it works</a>
             <a href="#get-started" className="hover:text-white">Get started</a>
           </nav>
-          <a href="#get-started" className="rounded-full bg-white px-4 py-2 text-xs font-medium text-black">Launch sandbox</a>
+          <a href="#get-started" className="rounded-full bg-white px-4 py-2 text-xs font-medium text-black">Launch pilot</a>
         </div>
       </header>
 
