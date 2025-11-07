@@ -31,9 +31,9 @@ const features = [
 
 export default function Features() {
   return (
-    <section id="how-it-works" className="relative w-full bg-black py-24 text-white">
+    <section id="how-it-works" className="relative w-full bg-black py-28 text-white">
       <div className="mx-auto max-w-7xl px-6">
-        <div className="mx-auto mb-14 max-w-3xl text-center">
+        <div className="mx-auto mb-16 max-w-3xl text-center">
           <h2 className="text-3xl md:text-5xl font-semibold tracking-tight">Engineered for retail stores</h2>
           <p className="mt-4 text-white/70">Point-of-sale speed, omnichannel coverage, and simple integration for your existing stack.</p>
         </div>
@@ -42,10 +42,10 @@ export default function Features() {
           {features.map(({ icon: Icon, title, desc, hue }, i) => (
             <motion.div
               key={title}
-              initial={{ y: 20, opacity: 0 }}
+              initial={{ y: 24, opacity: 0 }}
               whileInView={{ y: 0, opacity: 1 }}
-              viewport={{ once: true, amount: 0.3 }}
-              transition={{ type: 'spring', stiffness: 120, delay: i * 0.05 }}
+              viewport={{ once: true, amount: 0.35 }}
+              transition={{ type: 'spring', stiffness: 110, delay: i * 0.06 }}
               className="group relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 p-5 backdrop-blur"
             >
               <div className={`pointer-events-none absolute inset-0 bg-gradient-to-br ${hue}`} />
@@ -56,6 +56,14 @@ export default function Features() {
                 <h3 className="text-lg font-semibold">{title}</h3>
                 <p className="mt-2 text-sm text-white/70">{desc}</p>
               </div>
+              {/* hover lift */}
+              <motion.div
+                aria-hidden
+                className="pointer-events-none absolute -bottom-12 left-1/2 h-24 w-24 -translate-x-1/2 rounded-full bg-white/10 blur-2xl"
+                initial={{ opacity: 0 }}
+                whileHover={{ opacity: 1, scale: 1.2 }}
+                transition={{ type: 'spring', stiffness: 120 }}
+              />
             </motion.div>
           ))}
         </div>

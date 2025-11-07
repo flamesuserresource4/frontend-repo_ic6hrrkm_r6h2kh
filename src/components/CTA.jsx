@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 export default function CTA() {
   return (
-    <section id="get-started" className="relative w-full bg-black py-24 text-white">
+    <section id="get-started" className="relative w-full bg-black py-28 text-white">
       <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(40%_40%_at_50%_10%,rgba(59,130,246,0.15),transparent_60%)]" />
       <div className="mx-auto max-w-5xl px-6">
         <motion.div
